@@ -10,4 +10,8 @@
 
 @interface HELLCViewController : UIViewController
 
+@property(strong,nonatomic) IBOutlet UITextField *textf;
+
+-(IBAction)clickMe;
+
 @end

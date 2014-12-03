@@ -18,12 +18,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //视图加载完成以后
+    self.textf.text = @"HiHi~";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)clickMe
+{
+    self.textf.text = @"HOHO~~~~";
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 8;
 }
 
 @end
