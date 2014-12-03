@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3220DB1A2E8E7A0042310F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3220DA1A2E8E7A0042310F /* Foundation.framework */; };
+		0E3220DD1A2E8E7A0042310F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3220DC1A2E8E7A0042310F /* CoreGraphics.framework */; };
+		0E3220DF1A2E8E7A0042310F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3220DE1A2E8E7A0042310F /* UIKit.framework */; };
+		0E3220E51A2E8E7A0042310F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E3220E31A2E8E7A0042310F /* InfoPlist.strings */; };
+		0E3220E71A2E8E7A0042310F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3220E61A2E8E7A0042310F /* main.m */; };
+		0E3220EB1A2E8E7A0042310F /* HELLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3220EA1A2E8E7A0042310F /* HELLCAppDelegate.m */; };
+		0E3220EE1A2E8E7A0042310F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3220EC1A2E8E7A0042310F /* Main.storyboard */; };
+		0E3220F11A2E8E7A0042310F /* HELLCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3220F01A2E8E7A0042310F /* HELLCViewController.m */; };
+		0E3220F31A2E8E7A0042310F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3220F21A2E8E7A0042310F /* Images.xcassets */; };
+		0E3220FA1A2E8E7A0042310F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3220F91A2E8E7A0042310F /* XCTest.framework */; };
+		0E3220FB1A2E8E7A0042310F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3220DA1A2E8E7A0042310F /* Foundation.framework */; };
+		0E3220FC1A2E8E7A0042310F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3220DE1A2E8E7A0042310F /* UIKit.framework */; };
+		0E3221041A2E8E7A0042310F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E3221021A2E8E7A0042310F /* InfoPlist.strings */; };
+		0E3221061A2E8E7A0042310F /* simplePhotoBrowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3221051A2E8E7A0042310F /* simplePhotoBrowerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E3220FD1A2E8E7A0042310F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E3220CF1A2E8E7A0042310F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E3220D61A2E8E7A0042310F;
+			remoteInfo = simplePhotoBrower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3220D71A2E8E7A0042310F /* simplePhotoBrower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplePhotoBrower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3220DA1A2E8E7A0042310F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E3220DC1A2E8E7A0042310F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E3220DE1A2E8E7A0042310F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E3220E21A2E8E7A0042310F /* simplePhotoBrower-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simplePhotoBrower-Info.plist"; sourceTree = "<group>"; };
+		0E3220E41A2E8E7A0042310F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E3220E61A2E8E7A0042310F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E3220E81A2E8E7A0042310F /* simplePhotoBrower-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simplePhotoBrower-Prefix.pch"; sourceTree = "<group>"; };
+		0E3220E91A2E8E7A0042310F /* HELLCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HELLCAppDelegate.h; sourceTree = "<group>"; };
+		0E3220EA1A2E8E7A0042310F /* HELLCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HELLCAppDelegate.m; sourceTree = "<group>"; };
+		0E3220ED1A2E8E7A0042310F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E3220EF1A2E8E7A0042310F /* HELLCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HELLCViewController.h; sourceTree = "<group>"; };
+		0E3220F01A2E8E7A0042310F /* HELLCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HELLCViewController.m; sourceTree = "<group>"; };
+		0E3220F21A2E8E7A0042310F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E3220F81A2E8E7A0042310F /* simplePhotoBrowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplePhotoBrowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3220F91A2E8E7A0042310F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0E3221011A2E8E7A0042310F /* simplePhotoBrowerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simplePhotoBrowerTests-Info.plist"; sourceTree = "<group>"; };
+		0E3221031A2E8E7A0042310F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E3221051A2E8E7A0042310F /* simplePhotoBrowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simplePhotoBrowerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E3220D41A2E8E7A0042310F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3220DD1A2E8E7A0042310F /* CoreGraphics.framework in Frameworks */,
+				0E3220DF1A2E8E7A0042310F /* UIKit.framework in Frameworks */,
+				0E3220DB1A2E8E7A0042310F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3220F51A2E8E7A0042310F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3220FA1A2E8E7A0042310F /* XCTest.framework in Frameworks */,
+				0E3220FC1A2E8E7A0042310F /* UIKit.framework in Frameworks */,
+				0E3220FB1A2E8E7A0042310F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3220CE1A2E8E7A0042310F = {
+			isa = PBXGroup;
+			children = (
+				0E3220E01A2E8E7A0042310F /* simplePhotoBrower */,
+				0E3220FF1A2E8E7A0042310F /* simplePhotoBrowerTests */,
+				0E3220D91A2E8E7A0042310F /* Frameworks */,
+				0E3220D81A2E8E7A0042310F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E3220D81A2E8E7A0042310F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E3220D71A2E8E7A0042310F /* simplePhotoBrower.app */,
+				0E3220F81A2E8E7A0042310F /* simplePhotoBrowerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E3220D91A2E8E7A0042310F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E3220DA1A2E8E7A0042310F /* Foundation.framework */,
+				0E3220DC1A2E8E7A0042310F /* CoreGraphics.framework */,
+				0E3220DE1A2E8E7A0042310F /* UIKit.framework */,
+				0E3220F91A2E8E7A0042310F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E3220E01A2E8E7A0042310F /* simplePhotoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				0E3220E91A2E8E7A0042310F /* HELLCAppDelegate.h */,
+				0E3220EA1A2E8E7A0042310F /* HELLCAppDelegate.m */,
+				0E3220EC1A2E8E7A0042310F /* Main.storyboard */,
+				0E3220EF1A2E8E7A0042310F /* HELLCViewController.h */,
+				0E3220F01A2E8E7A0042310F /* HELLCViewController.m */,
+				0E3220F21A2E8E7A0042310F /* Images.xcassets */,
+				0E3220E11A2E8E7A0042310F /* Supporting Files */,
+			);
+			path = simplePhotoBrower;
+			sourceTree = "<group>";
+		};
+		0E3220E11A2E8E7A0042310F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3220E21A2E8E7A0042310F /* simplePhotoBrower-Info.plist */,
+				0E3220E31A2E8E7A0042310F /* InfoPlist.strings */,
+				0E3220E61A2E8E7A0042310F /* main.m */,
+				0E3220E81A2E8E7A0042310F /* simplePhotoBrower-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E3220FF1A2E8E7A0042310F /* simplePhotoBrowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E3221051A2E8E7A0042310F /* simplePhotoBrowerTests.m */,
+				0E3221001A2E8E7A0042310F /* Supporting Files */,
+			);
+			path = simplePhotoBrowerTests;
+			sourceTree = "<group>";
+		};
+		0E3221001A2E8E7A0042310F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E3221011A2E8E7A0042310F /* simplePhotoBrowerTests-Info.plist */,
+				0E3221021A2E8E7A0042310F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E3220D61A2E8E7A0042310F /* simplePhotoBrower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3221091A2E8E7A0042310F /* Build configuration list for PBXNativeTarget "simplePhotoBrower" */;
+			buildPhases = (
+				0E3220D31A2E8E7A0042310F /* Sources */,
+				0E3220D41A2E8E7A0042310F /* Frameworks */,
+				0E3220D51A2E8E7A0042310F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simplePhotoBrower;
+			productName = simplePhotoBrower;
+			productReference = 0E3220D71A2E8E7A0042310F /* simplePhotoBrower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E3220F71A2E8E7A0042310F /* simplePhotoBrowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E32210C1A2E8E7A0042310F /* Build configuration list for PBXNativeTarget "simplePhotoBrowerTests" */;
+			buildPhases = (
+				0E3220F41A2E8E7A0042310F /* Sources */,
+				0E3220F51A2E8E7A0042310F /* Frameworks */,
+				0E3220F61A2E8E7A0042310F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E3220FE1A2E8E7A0042310F /* PBXTargetDependency */,
+			);
+			name = simplePhotoBrowerTests;
+			productName = simplePhotoBrowerTests;
+			productReference = 0E3220F81A2E8E7A0042310F /* simplePhotoBrowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E3220CF1A2E8E7A0042310F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HELLC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = wenbin.cai;
+				TargetAttributes = {
+					0E3220D61A2E8E7A0042310F = {
+						DevelopmentTeam = TZ3BVZZBL4;
+					};
+					0E3220F71A2E8E7A0042310F = {
+						TestTargetID = 0E3220D61A2E8E7A0042310F;
+					};
+				};
+			};
+			buildConfigurationList = 0E3220D21A2E8E7A0042310F /* Build configuration list for PBXProject "simplePhotoBrower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E3220CE1A2E8E7A0042310F;
+			productRefGroup = 0E3220D81A2E8E7A0042310F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E3220D61A2E8E7A0042310F /* simplePhotoBrower */,
+				0E3220F71A2E8E7A0042310F /* simplePhotoBrowerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E3220D51A2E8E7A0042310F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3220F31A2E8E7A0042310F /* Images.xcassets in Resources */,
+				0E3220E51A2E8E7A0042310F /* InfoPlist.strings in Resources */,
+				0E3220EE1A2E8E7A0042310F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3220F61A2E8E7A0042310F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3221041A2E8E7A0042310F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E3220D31A2E8E7A0042310F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3220E71A2E8E7A0042310F /* main.m in Sources */,
+				0E3220F11A2E8E7A0042310F /* HELLCViewController.m in Sources */,
+				0E3220EB1A2E8E7A0042310F /* HELLCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E3220F41A2E8E7A0042310F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3221061A2E8E7A0042310F /* simplePhotoBrowerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E3220FE1A2E8E7A0042310F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E3220D61A2E8E7A0042310F /* simplePhotoBrower */;
+			targetProxy = 0E3220FD1A2E8E7A0042310F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E3220E31A2E8E7A0042310F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E3220E41A2E8E7A0042310F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E3220EC1A2E8E7A0042310F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E3220ED1A2E8E7A0042310F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E3221021A2E8E7A0042310F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E3221031A2E8E7A0042310F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E3221071A2E8E7A0042310F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E3221081A2E8E7A0042310F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E32210A1A2E8E7A0042310F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simplePhotoBrower/simplePhotoBrower-Prefix.pch";
+				INFOPLIST_FILE = "simplePhotoBrower/simplePhotoBrower-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E32210B1A2E8E7A0042310F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simplePhotoBrower/simplePhotoBrower-Prefix.pch";
+				INFOPLIST_FILE = "simplePhotoBrower/simplePhotoBrower-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0E32210D1A2E8E7A0042310F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simplePhotoBrower.app/simplePhotoBrower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simplePhotoBrower/simplePhotoBrower-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "simplePhotoBrowerTests/simplePhotoBrowerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0E32210E1A2E8E7A0042310F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simplePhotoBrower.app/simplePhotoBrower";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simplePhotoBrower/simplePhotoBrower-Prefix.pch";
+				INFOPLIST_FILE = "simplePhotoBrowerTests/simplePhotoBrowerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E3220D21A2E8E7A0042310F /* Build configuration list for PBXProject "simplePhotoBrower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3221071A2E8E7A0042310F /* Debug */,
+				0E3221081A2E8E7A0042310F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E3221091A2E8E7A0042310F /* Build configuration list for PBXNativeTarget "simplePhotoBrower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E32210A1A2E8E7A0042310F /* Debug */,
+				0E32210B1A2E8E7A0042310F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E32210C1A2E8E7A0042310F /* Build configuration list for PBXNativeTarget "simplePhotoBrowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E32210D1A2E8E7A0042310F /* Debug */,
+				0E32210E1A2E8E7A0042310F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E3220CF1A2E8E7A0042310F /* Project object */;
+}

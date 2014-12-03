@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>38D6C659-EECD-44F6-A96E-197DB1281309</string>
+	<key>IDESourceControlProjectName</key>
+	<string>simplePhotoBrower</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FAFA606B-67F0-4C5D-AE70-57E8E31631C1</key>
+		<string>https://github.com/caiwb1990/cocoa.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>simplePhotoBrower/simplePhotoBrower.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FAFA606B-67F0-4C5D-AE70-57E8E31631C1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/caiwb1990/cocoa.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FAFA606B-67F0-4C5D-AE70-57E8E31631C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FAFA606B-67F0-4C5D-AE70-57E8E31631C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cocoa</string>
+		</dict>
+	</array>
+</dict>
+</plist>
