@@ -10,4 +10,11 @@
 
 @interface HELLCViewController : UIViewController
 
+@property(strong,nonatomic) IBOutlet UIImageView *imageview; //图片显示控件
+@property(strong,nonatomic) IBOutlet UISwitch *uiswitch;//定义开关控件
+@property(strong,nonatomic) IBOutlet UISlider *slider;//定义滑动条控件
+
+-(IBAction)switchImage;
+-(IBAction)setAlpha;
+
 @end

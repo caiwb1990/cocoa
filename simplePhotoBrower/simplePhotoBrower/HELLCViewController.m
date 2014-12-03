@@ -26,4 +26,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)switchImage
+{
+    if (self.uiswitch.isOn)
+    {
+        self.imageview.image = [UIImage imageNamed:@"p1.png"];
+    }
+    else
+    {
+        self.imageview.image = [UIImage imageNamed:@"p2.png"];
+    }
+}
+
+-(IBAction)setAlpha
+{
+    self.imageview.alpha = self.slider.value;
+}
+
+
 @end
