@@ -10,4 +10,10 @@
 
 @interface HELLCViewController : UIViewController
 
+@property(nonatomic,retain) IBOutlet UIWebView *webview;
+@property(strong,nonatomic) IBOutlet UITextField *textf;
+
+-(IBAction)go;
+
+
 @end

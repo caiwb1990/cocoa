@@ -18,12 +18,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.textf.text =@"http://www.baidu.com";
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+
+-(IBAction)go
+{
+    NSURLRequest * quest = [NSURLRequest requestWithURL:[NSURL URLWithString:self.textf.text]];
+    
+    [self.view addSubview:self.webview];//添加webview视图
+    [self.webview loadRequest:quest];
+    
+    
 }
 
 @end
