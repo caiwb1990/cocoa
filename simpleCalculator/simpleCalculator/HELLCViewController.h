@@ -10,4 +10,11 @@
 
 @interface HELLCViewController : UIViewController
 
+@property(strong,nonatomic) IBOutlet UITextField *num1;
+@property(strong,nonatomic) IBOutlet UITextField *num2;
+@property(strong,nonatomic) IBOutlet UITextField *result;
+
+- (IBAction)calc:(id)sender;
+
+
 @end
