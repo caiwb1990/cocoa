@@ -10,4 +10,8 @@
 
 @interface HELLCViewController : UIViewController
 
+@property (strong,nonatomic) IBOutlet UITextView *textView;
+
+-(IBAction)load;
+
 @end
