@@ -10,4 +10,8 @@
 
 @interface HELLCViewController : UIViewController
 
+@property(strong,nonatomic) UIImageView *imageView;
+
+-(IBAction)play;
+
 @end
