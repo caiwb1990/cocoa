@@ -16,22 +16,9 @@
 		0EE6EB5E1A39DB8800D2E69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE6EB5C1A39DB8800D2E69A /* Main.storyboard */; };
 		0EE6EB611A39DB8800D2E69A /* HELLCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6EB601A39DB8800D2E69A /* HELLCViewController.m */; };
 		0EE6EB631A39DB8800D2E69A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE6EB621A39DB8800D2E69A /* Images.xcassets */; };
-		0EE6EB6A1A39DB8800D2E69A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE6EB691A39DB8800D2E69A /* XCTest.framework */; };
-		0EE6EB6B1A39DB8800D2E69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE6EB4A1A39DB8800D2E69A /* Foundation.framework */; };
-		0EE6EB6C1A39DB8800D2E69A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE6EB4E1A39DB8800D2E69A /* UIKit.framework */; };
-		0EE6EB741A39DB8800D2E69A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EE6EB721A39DB8800D2E69A /* InfoPlist.strings */; };
-		0EE6EB761A39DB8800D2E69A /* simpleMediaPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6EB751A39DB8800D2E69A /* simpleMediaPlayerTests.m */; };
+		0EE6EB801A39DCB200D2E69A /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0EE6EB7F1A39DCB200D2E69A /* music.m4a */; };
+		0EE6EB821A39DD0900D2E69A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE6EB811A39DD0900D2E69A /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0EE6EB6D1A39DB8800D2E69A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0EE6EB3F1A39DB8800D2E69A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0EE6EB461A39DB8800D2E69A;
-			remoteInfo = simpleMediaPlayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0EE6EB471A39DB8800D2E69A /* simpleMediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +35,12 @@
 		0EE6EB5F1A39DB8800D2E69A /* HELLCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HELLCViewController.h; sourceTree = "<group>"; };
 		0EE6EB601A39DB8800D2E69A /* HELLCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HELLCViewController.m; sourceTree = "<group>"; };
 		0EE6EB621A39DB8800D2E69A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0EE6EB681A39DB8800D2E69A /* simpleMediaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleMediaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE6EB691A39DB8800D2E69A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0EE6EB711A39DB8800D2E69A /* simpleMediaPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpleMediaPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		0EE6EB731A39DB8800D2E69A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EE6EB751A39DB8800D2E69A /* simpleMediaPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleMediaPlayerTests.m; sourceTree = "<group>"; };
+		0EE6EB7F1A39DCB200D2E69A /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		0EE6EB811A39DD0900D2E69A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE6EB821A39DD0900D2E69A /* MediaPlayer.framework in Frameworks */,
 				0EE6EB4D1A39DB8800D2E69A /* CoreGraphics.framework in Frameworks */,
 				0EE6EB4F1A39DB8800D2E69A /* UIKit.framework in Frameworks */,
 				0EE6EB4B1A39DB8800D2E69A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EE6EB651A39DB8800D2E69A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE6EB6A1A39DB8800D2E69A /* XCTest.framework in Frameworks */,
-				0EE6EB6C1A39DB8800D2E69A /* UIKit.framework in Frameworks */,
-				0EE6EB6B1A39DB8800D2E69A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +61,7 @@
 		0EE6EB3E1A39DB8800D2E69A = {
 			isa = PBXGroup;
 			children = (
+				0EE6EB7F1A39DCB200D2E69A /* music.m4a */,
 				0EE6EB501A39DB8800D2E69A /* simpleMediaPlayer */,
 				0EE6EB6F1A39DB8800D2E69A /* simpleMediaPlayerTests */,
 				0EE6EB491A39DB8800D2E69A /* Frameworks */,
@@ -93,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				0EE6EB471A39DB8800D2E69A /* simpleMediaPlayer.app */,
-				0EE6EB681A39DB8800D2E69A /* simpleMediaPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +80,7 @@
 		0EE6EB491A39DB8800D2E69A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EE6EB811A39DD0900D2E69A /* MediaPlayer.framework */,
 				0EE6EB4A1A39DB8800D2E69A /* Foundation.framework */,
 				0EE6EB4C1A39DB8800D2E69A /* CoreGraphics.framework */,
 				0EE6EB4E1A39DB8800D2E69A /* UIKit.framework */,
@@ -172,24 +152,6 @@
 			productReference = 0EE6EB471A39DB8800D2E69A /* simpleMediaPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0EE6EB671A39DB8800D2E69A /* simpleMediaPlayerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0EE6EB7C1A39DB8800D2E69A /* Build configuration list for PBXNativeTarget "simpleMediaPlayerTests" */;
-			buildPhases = (
-				0EE6EB641A39DB8800D2E69A /* Sources */,
-				0EE6EB651A39DB8800D2E69A /* Frameworks */,
-				0EE6EB661A39DB8800D2E69A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EE6EB6E1A39DB8800D2E69A /* PBXTargetDependency */,
-			);
-			name = simpleMediaPlayerTests;
-			productName = simpleMediaPlayerTests;
-			productReference = 0EE6EB681A39DB8800D2E69A /* simpleMediaPlayerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,9 +164,6 @@
 				TargetAttributes = {
 					0EE6EB461A39DB8800D2E69A = {
 						DevelopmentTeam = TZ3BVZZBL4;
-					};
-					0EE6EB671A39DB8800D2E69A = {
-						TestTargetID = 0EE6EB461A39DB8800D2E69A;
 					};
 				};
 			};
@@ -222,7 +181,6 @@
 			projectRoot = "";
 			targets = (
 				0EE6EB461A39DB8800D2E69A /* simpleMediaPlayer */,
-				0EE6EB671A39DB8800D2E69A /* simpleMediaPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,17 +190,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE6EB801A39DCB200D2E69A /* music.m4a in Resources */,
 				0EE6EB631A39DB8800D2E69A /* Images.xcassets in Resources */,
 				0EE6EB551A39DB8800D2E69A /* InfoPlist.strings in Resources */,
 				0EE6EB5E1A39DB8800D2E69A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EE6EB661A39DB8800D2E69A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE6EB741A39DB8800D2E69A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,23 +210,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EE6EB641A39DB8800D2E69A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE6EB761A39DB8800D2E69A /* simpleMediaPlayerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0EE6EB6E1A39DB8800D2E69A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0EE6EB461A39DB8800D2E69A /* simpleMediaPlayer */;
-			targetProxy = 0EE6EB6D1A39DB8800D2E69A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0EE6EB531A39DB8800D2E69A /* InfoPlist.strings */ = {
@@ -407,48 +342,6 @@
 			};
 			name = Release;
 		};
-		0EE6EB7D1A39DB8800D2E69A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simpleMediaPlayer.app/simpleMediaPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "simpleMediaPlayer/simpleMediaPlayer-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "simpleMediaPlayerTests/simpleMediaPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		0EE6EB7E1A39DB8800D2E69A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simpleMediaPlayer.app/simpleMediaPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "simpleMediaPlayer/simpleMediaPlayer-Prefix.pch";
-				INFOPLIST_FILE = "simpleMediaPlayerTests/simpleMediaPlayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,14 +359,6 @@
 			buildConfigurations = (
 				0EE6EB7A1A39DB8800D2E69A /* Debug */,
 				0EE6EB7B1A39DB8800D2E69A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		0EE6EB7C1A39DB8800D2E69A /* Build configuration list for PBXNativeTarget "simpleMediaPlayerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0EE6EB7D1A39DB8800D2E69A /* Debug */,
-				0EE6EB7E1A39DB8800D2E69A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

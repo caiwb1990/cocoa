@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+
 
 @interface HELLCViewController : UIViewController
+
+@property (strong,nonatomic) MPMoviePlayerController *player;
+
+-(IBAction)go;
+
 
 @end
