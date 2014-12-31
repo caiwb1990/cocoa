@@ -17,4 +17,5 @@
 -(IBAction)switchImage;
 -(IBAction)setAlpha;
 
+
 @end
